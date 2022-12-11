@@ -394,6 +394,7 @@ img {
 .button--flex {
   display: inline-block;
   align-items: center;
+  border: none;
 }
 
 .button--small {
@@ -1332,4 +1333,15 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* =============================Blog ======================== */
+.blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: 0;
 }
